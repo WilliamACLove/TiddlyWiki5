@@ -1,5 +1,5 @@
 {
-	"description": "Legal wiki edition for case management, legal research, and document organization",
+	"description": "Legal reference system for organizing and prioritizing legal information",
 	"plugins": [
 		"tiddlywiki/markdown"
 	],

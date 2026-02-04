@@ -1,0 +1,46 @@
+title: Welcome
+tags: Documentation
+
+! Legal Reference System
+
+A structured system for organizing, categorizing, and prioritizing legal information.
+
+!! Core Features
+
+* ''Hierarchical Organization'' - Organize references by area of law, jurisdiction, and topic
+* ''Priority Levels'' - Mark references as Critical, High, Medium, or Low priority
+* ''Status Tracking'' - Track whether information is Current, Under Review, or Outdated
+* ''Cross-References'' - Link related statutes, cases, and concepts
+* ''Quick Filtering'' - Find information by priority, category, or status
+
+!! Reference Types
+
+|!Type |!Tag |!Description |
+|Statutes |`Statute` |Legislative enactments and codes |
+|Regulations |`Regulation` |Administrative rules and regulations |
+|Case Law |`CaseLaw` |Judicial decisions and precedents |
+|Concepts |`Concept` |Legal principles and doctrines |
+|Procedures |`Procedure` |Procedural rules and requirements |
+|Forms |`Form` |Standard forms and documents |
+
+!! Priority System
+
+|!Level |!Tag |!Use For |
+|Critical |`P1-Critical` |Must-know, frequently referenced |
+|High |`P2-High` |Important, regularly needed |
+|Medium |`P3-Medium` |Useful, occasionally referenced |
+|Low |`P4-Low` |Background, rarely needed |
+
+!! Getting Started
+
+# Browse the [[Reference Index]] to see all organized content
+# Use [[Priority View]] to see references by importance
+# Check [[Areas of Law]] for topical organization
+# Create new entries using the reference templates
+
+!! Navigation
+
+* [[Reference Index]] - Complete categorized index
+* [[Priority View]] - View by priority level
+* [[Areas of Law]] - Browse by legal topic
+* [[Recent Changes]] - Recently modified entries

@@ -1,0 +1,49 @@
+title: Reference Index
+tags: Navigation
+
+! Reference Index
+
+!! By Type
+
+!!! Statutes
+<$list filter="[tag[Statute]sort[title]]" emptyMessage="//No statutes yet. Add the `Statute` tag to entries.//">
+<$link><$view field="title"/></$link> <$list filter="[all[current]tag[P1-Critical]]">//''(Critical)''//</$list>
+</$list>
+
+!!! Regulations
+<$list filter="[tag[Regulation]sort[title]]" emptyMessage="//No regulations yet. Add the `Regulation` tag to entries.//">
+<$link><$view field="title"/></$link> <$list filter="[all[current]tag[P1-Critical]]">//''(Critical)''//</$list>
+</$list>
+
+!!! Case Law
+<$list filter="[tag[CaseLaw]sort[title]]" emptyMessage="//No case law yet. Add the `CaseLaw` tag to entries.//">
+<$link><$view field="title"/></$link> <$list filter="[all[current]tag[P1-Critical]]">//''(Critical)''//</$list>
+</$list>
+
+!!! Legal Concepts
+<$list filter="[tag[Concept]sort[title]]" emptyMessage="//No concepts yet. Add the `Concept` tag to entries.//">
+<$link><$view field="title"/></$link> <$list filter="[all[current]tag[P1-Critical]]">//''(Critical)''//</$list>
+</$list>
+
+!!! Procedures
+<$list filter="[tag[Procedure]sort[title]]" emptyMessage="//No procedures yet. Add the `Procedure` tag to entries.//">
+<$link><$view field="title"/></$link> <$list filter="[all[current]tag[P1-Critical]]">//''(Critical)''//</$list>
+</$list>
+
+!!! Forms
+<$list filter="[tag[Form]sort[title]]" emptyMessage="//No forms yet. Add the `Form` tag to entries.//">
+<$link><$view field="title"/></$link>
+</$list>
+
+---
+
+!! Statistics
+
+|!Type |!Count |
+|Statutes |<$count filter="[tag[Statute]]"/> |
+|Regulations |<$count filter="[tag[Regulation]]"/> |
+|Case Law |<$count filter="[tag[CaseLaw]]"/> |
+|Concepts |<$count filter="[tag[Concept]]"/> |
+|Procedures |<$count filter="[tag[Procedure]]"/> |
+|Forms |<$count filter="[tag[Form]]"/> |
+|''Total'' |''<$count filter="[tag[Statute]] [tag[Regulation]] [tag[CaseLaw]] [tag[Concept]] [tag[Procedure]] [tag[Form]]"/>'' |

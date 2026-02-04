@@ -1,0 +1,74 @@
+title: Areas of Law
+tags: Navigation
+
+! Areas of Law
+
+Browse references by legal topic. Add area tags to your entries to organize them here.
+
+!! Constitutional Law
+<$list filter="[tag[Constitutional]!is[system]sort[title]]" emptyMessage="//No entries. Tag items with `Constitutional`.//">
+* <$link><$view field="title"/></$link>
+</$list>
+
+!! Criminal Law
+<$list filter="[tag[Criminal]!is[system]sort[title]]" emptyMessage="//No entries. Tag items with `Criminal`.//">
+* <$link><$view field="title"/></$link>
+</$list>
+
+!! Civil Procedure
+<$list filter="[tag[CivilProcedure]!is[system]sort[title]]" emptyMessage="//No entries. Tag items with `CivilProcedure`.//">
+* <$link><$view field="title"/></$link>
+</$list>
+
+!! Contract Law
+<$list filter="[tag[Contracts]!is[system]sort[title]]" emptyMessage="//No entries. Tag items with `Contracts`.//">
+* <$link><$view field="title"/></$link>
+</$list>
+
+!! Tort Law
+<$list filter="[tag[Torts]!is[system]sort[title]]" emptyMessage="//No entries. Tag items with `Torts`.//">
+* <$link><$view field="title"/></$link>
+</$list>
+
+!! Property Law
+<$list filter="[tag[Property]!is[system]sort[title]]" emptyMessage="//No entries. Tag items with `Property`.//">
+* <$link><$view field="title"/></$link>
+</$list>
+
+!! Evidence
+<$list filter="[tag[Evidence]!is[system]sort[title]]" emptyMessage="//No entries. Tag items with `Evidence`.//">
+* <$link><$view field="title"/></$link>
+</$list>
+
+!! Administrative Law
+<$list filter="[tag[Administrative]!is[system]sort[title]]" emptyMessage="//No entries. Tag items with `Administrative`.//">
+* <$link><$view field="title"/></$link>
+</$list>
+
+!! Corporate/Business Law
+<$list filter="[tag[Corporate]!is[system]sort[title]]" emptyMessage="//No entries. Tag items with `Corporate`.//">
+* <$link><$view field="title"/></$link>
+</$list>
+
+!! Family Law
+<$list filter="[tag[Family]!is[system]sort[title]]" emptyMessage="//No entries. Tag items with `Family`.//">
+* <$link><$view field="title"/></$link>
+</$list>
+
+!! Tax Law
+<$list filter="[tag[Tax]!is[system]sort[title]]" emptyMessage="//No entries. Tag items with `Tax`.//">
+* <$link><$view field="title"/></$link>
+</$list>
+
+!! Intellectual Property
+<$list filter="[tag[IP]!is[system]sort[title]]" emptyMessage="//No entries. Tag items with `IP`.//">
+* <$link><$view field="title"/></$link>
+</$list>
+
+---
+
+!! All Area Tags in Use
+
+<$list filter="[tags[]!is[system]search:title[]] -[[Statute]] -[[Regulation]] -[[CaseLaw]] -[[Concept]] -[[Procedure]] -[[Form]] -[[P1-Critical]] -[[P2-High]] -[[P3-Medium]] -[[P4-Low]] -[[Current]] -[[UnderReview]] -[[Outdated]] -[[Documentation]] -[[Navigation]] +[sort[title]]" emptyMessage="//No area tags in use yet.//">
+<$link><$view field="title"/></$link> (<$count filter="[tag<currentTiddler>]"/>)
+</$list>

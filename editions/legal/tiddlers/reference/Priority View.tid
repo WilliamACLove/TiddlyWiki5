@@ -1,0 +1,41 @@
+title: Priority View
+tags: Navigation
+
+! Priority View
+
+Organize your review and study by importance level.
+
+!! Critical Priority (P1)
+<$list filter="[tag[P1-Critical]!is[system]sort[title]]" emptyMessage="//No critical priority items.//">
+* <$link><$view field="title"/></$link> - <$list filter="[all[current]tags[]] -[[P1-Critical]] -[[P2-High]] -[[P3-Medium]] -[[P4-Low]] +[first[]]">^^<$view field="title"/>^^</$list>
+</$list>
+
+!! High Priority (P2)
+<$list filter="[tag[P2-High]!is[system]sort[title]]" emptyMessage="//No high priority items.//">
+* <$link><$view field="title"/></$link> - <$list filter="[all[current]tags[]] -[[P1-Critical]] -[[P2-High]] -[[P3-Medium]] -[[P4-Low]] +[first[]]">^^<$view field="title"/>^^</$list>
+</$list>
+
+!! Medium Priority (P3)
+<$list filter="[tag[P3-Medium]!is[system]sort[title]]" emptyMessage="//No medium priority items.//">
+* <$link><$view field="title"/></$link> - <$list filter="[all[current]tags[]] -[[P1-Critical]] -[[P2-High]] -[[P3-Medium]] -[[P4-Low]] +[first[]]">^^<$view field="title"/>^^</$list>
+</$list>
+
+!! Low Priority (P4)
+<$list filter="[tag[P4-Low]!is[system]sort[title]]" emptyMessage="//No low priority items.//">
+* <$link><$view field="title"/></$link> - <$list filter="[all[current]tags[]] -[[P1-Critical]] -[[P2-High]] -[[P3-Medium]] -[[P4-Low]] +[first[]]">^^<$view field="title"/>^^</$list>
+</$list>
+
+!! Unprioritized
+<$list filter="[tag[Statute]] [tag[Regulation]] [tag[CaseLaw]] [tag[Concept]] [tag[Procedure]] +[!tag[P1-Critical]!tag[P2-High]!tag[P3-Medium]!tag[P4-Low]sort[title]]" emptyMessage="//All items are prioritized.//">
+* <$link><$view field="title"/></$link> - <$list filter="[all[current]tags[]] +[first[]]">^^<$view field="title"/>^^</$list>
+</$list>
+
+---
+
+!! Priority Summary
+
+|!Priority |!Count |
+|Critical (P1) |<$count filter="[tag[P1-Critical]!is[system]]"/> |
+|High (P2) |<$count filter="[tag[P2-High]!is[system]]"/> |
+|Medium (P3) |<$count filter="[tag[P3-Medium]!is[system]]"/> |
+|Low (P4) |<$count filter="[tag[P4-Low]!is[system]]"/> |
