@@ -1,0 +1,43 @@
+title: Templates
+tags: Documentation
+
+! Document Templates
+
+This wiki includes several templates to help you quickly create common legal documents. To use a template, open it and copy the content into a new tiddler.
+
+!! Case Management
+
+* [[$:/templates/NewCase]] - Create a new case file with standard fields
+* [[$:/templates/ClientIntake]] - Record new client information
+* [[$:/templates/DeadlineTracker]] - Track important dates and deadlines
+
+!! Legal Research
+
+* [[$:/templates/LegalMemo]] - Draft legal memoranda
+* [[$:/templates/CaseLawCitation]] - Document case law citations
+* [[$:/templates/StatuteCitation]] - Document statutory references
+
+!! Using Templates
+
+# Open the template you want to use
+# Click "Clone" or copy the content
+# Paste into a new tiddler
+# Fill in the relevant information
+# Add appropriate tags
+
+!! Creating Custom Templates
+
+To create your own template:
+
+# Create a new tiddler with your template content
+# Add the `Template` tag
+# Use placeholder text like `<<field-name>>` for fields to fill in
+# Document how to use the template
+
+!! All Templates
+
+<$list filter="[tag[Template]sort[title]]">
+
+* <$link><$view field="title"/></$link>
+
+</$list>

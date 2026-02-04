@@ -1,0 +1,63 @@
+title: $:/templates/StatuteCitation
+tags: Template
+caption: Statute Citation Template
+
+! [Statute Name/Number]
+
+!! Citation
+
+''Full Citation:''
+
+''Short Form:''
+
+!! Statutory Text
+
+> Full or relevant text of the statute
+
+!! Effective Date
+
+|!Original Enactment | |
+|!Last Amended | |
+|!Effective Date | |
+
+!! Purpose/Legislative Intent
+
+Summary of the statute's purpose.
+
+!! Key Definitions
+
+|!Term |!Definition |
+| | |
+
+!! Elements/Requirements
+
+# Element 1
+# Element 2
+# Element 3
+
+!! Exceptions
+
+* Exception 1
+* Exception 2
+
+!! Penalties/Remedies
+
+Applicable penalties or available remedies.
+
+!! Related Statutes
+
+* [[Related Statute 1]]
+* [[Related Statute 2]]
+
+!! Relevant Case Law
+
+Cases interpreting this statute:
+* [[Case 1]]
+* [[Case 2]]
+
+!! Application Notes
+
+How this statute applies to our matters.
+
+---
+''Tags to add:'' `Statute`, `Research`, jurisdiction tag, legal topic tags

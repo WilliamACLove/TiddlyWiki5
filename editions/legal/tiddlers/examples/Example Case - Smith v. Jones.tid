@@ -1,0 +1,78 @@
+title: Example Case - Smith v. Jones
+tags: Case Active Example Civil Litigation
+client: John Smith
+case-number: 2024-CV-001234
+matter-type: Civil Litigation
+date-opened: 2024-01-15
+status: Active
+
+! Case Information
+
+|!Field |!Value |
+|Case Number |2024-CV-001234 |
+|Case Name |Smith v. Jones |
+|Client |[[John Smith (Example Client)]] |
+|Matter Type |Civil Litigation - Contract Dispute |
+|Date Opened |2024-01-15 |
+|Status |Active |
+
+!! Parties
+
+!!! Plaintiff
+John Smith
+123 Main Street
+Anytown, State 12345
+
+!!! Defendant
+ABC Corporation (David Jones, CEO)
+456 Business Ave
+Commerce City, State 67890
+
+!! Case Summary
+
+Client engaged ABC Corporation for construction services. Defendant failed to complete the project according to contract specifications and has refused to refund the deposit or complete the work.
+
+!! Key Facts
+
+* Contract signed: 2023-06-01
+* Project start date: 2023-07-01
+* Expected completion: 2023-10-01
+* Work stopped: 2023-08-15
+* Total contract value: $150,000
+* Deposit paid: $50,000
+* Work completed: Approximately 30%
+
+!! Legal Issues
+
+# Breach of contract
+# Recovery of deposit
+# Damages for incomplete work
+# Cost of completion by another contractor
+
+!! Important Dates
+
+|!Date |!Event |!Notes |
+|2024-01-15 |Complaint Filed |Filed in Superior Court |
+|2024-02-20 |Answer Due |Defendant's response deadline |
+|2024-03-15 |Initial Case Conference |Judge Martinez |
+|2024-06-01 |Discovery Deadline |All discovery to be completed |
+
+!! Documents
+
+* Contract (2023-06-01)
+* Payment receipts
+* Photographs of incomplete work
+* Correspondence with defendant
+* Expert estimate for completion
+
+!! Research Notes
+
+See: [[Example Case - Smith v. Jones Research]]
+
+!! Status Updates
+
+!!! 2024-01-15
+Case opened. Complaint filed in Superior Court. Awaiting service of process.
+
+---
+//This is an example case to demonstrate the template structure. Delete this tiddler when creating your own cases.//

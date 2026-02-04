@@ -1,0 +1,53 @@
+title: Case Dashboard
+tags: Documentation Dashboard
+
+! Case Dashboard
+
+!! Active Cases
+
+<$list filter="[tag[Case]tag[Active]sort[title]]" emptyMessage="//No active cases. Create one using the [[New Case Template]].//">
+
+<$link><$view field="title"/></$link> - <$view field="client"/>
+
+</$list>
+
+!! Pending Cases
+
+<$list filter="[tag[Case]tag[Pending]sort[title]]" emptyMessage="//No pending cases.//">
+
+<$link><$view field="title"/></$link> - <$view field="client"/>
+
+</$list>
+
+!! Closed Cases
+
+<$list filter="[tag[Case]tag[Closed]limit[10]sort[title]]" emptyMessage="//No closed cases.//">
+
+<$link><$view field="title"/></$link>
+
+</$list>
+
+---
+
+!! Upcoming Deadlines
+
+<$list filter="[tag[Deadline]sort[due-date]limit[10]]" emptyMessage="//No upcoming deadlines.//">
+
+<$link><$view field="title"/></$link> - Due: <$view field="due-date"/>
+
+</$list>
+
+---
+
+!! Quick Actions
+
+* [[New Case Template|$:/templates/NewCase]] - Create a new case
+* [[Client Intake Template|$:/templates/ClientIntake]] - Add a new client
+* [[$:/TagManager]] - Manage tags
+
+!! Statistics
+
+* Total Cases: {{$:/temp/case-count}}
+* Active: <$count filter="[tag[Case]tag[Active]]"/>
+* Pending: <$count filter="[tag[Case]tag[Pending]]"/>
+* Closed: <$count filter="[tag[Case]tag[Closed]]"/>

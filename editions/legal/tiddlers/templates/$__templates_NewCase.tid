@@ -1,0 +1,51 @@
+title: $:/templates/NewCase
+tags: Template
+caption: New Case Template
+
+\define new-case-content()
+! Case Information
+
+|!Field |!Value |
+|Case Number |<<case-number>> |
+|Case Name |<<case-name>> |
+|Client |[[<<client>>]] |
+|Matter Type |<<matter-type>> |
+|Date Opened |<<date-opened>> |
+|Status |<<status>> |
+
+!! Parties
+
+!!! Plaintiff/Petitioner
+<<plaintiff>>
+
+!!! Defendant/Respondent
+<<defendant>>
+
+!! Case Summary
+<<summary>>
+
+!! Key Facts
+*
+
+!! Legal Issues
+#
+
+!! Important Dates
+|!Date |!Event |!Notes |
+| | | |
+
+!! Documents
+*
+
+!! Research Notes
+See: [[<<case-name>> Research]]
+
+!! Status Updates
+!!! <<date-opened>>
+Case opened.
+
+---
+''Tags to add:'' `Case`, `Active` or `Pending`, matter type tag
+\end
+
+<<new-case-content>>

@@ -1,0 +1,56 @@
+title: John Smith (Example Client)
+tags: Client Example
+
+! Client Information
+
+!! Personal Details
+
+|!Field |!Information |
+|Full Legal Name |John Michael Smith |
+|Preferred Name |John |
+|Date of Birth |1975-03-22 |
+|SSN (Last 4) |XXXX |
+
+!! Contact Information
+
+|!Type |!Details |
+|Primary Phone |(555) 123-4567 |
+|Secondary Phone |(555) 987-6543 |
+|Email |john.smith@email.com |
+|Preferred Contact Method |Email |
+
+!! Address
+
+|!Type |!Address |
+|Home |123 Main Street, Anytown, State 12345 |
+|Work |789 Office Park, Suite 100, Worktown, State 12345 |
+
+!! Employment
+
+|!Field |!Information |
+|Employer |Tech Solutions Inc. |
+|Position |Senior Engineer |
+|Work Phone |(555) 456-7890 |
+|Years Employed |8 years |
+
+!! Emergency Contact
+
+|!Field |!Information |
+|Name |Jane Smith (spouse) |
+|Relationship |Spouse |
+|Phone |(555) 123-4568 |
+
+!! Referral Source
+
+Referred by existing client Robert Johnson.
+
+!! Related Matters
+
+* [[Example Case - Smith v. Jones]]
+
+!! Notes
+
+Excellent client - responsive and organized. Provides documentation promptly.
+
+---
+//This is an example client record. Delete this tiddler when adding your own clients.//
